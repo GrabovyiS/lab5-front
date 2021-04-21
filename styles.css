@@ -1,0 +1,72 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    outline: none;
+    border: none;
+    color: #24242E;
+}
+.section-1{
+    width: 100vw;
+    height: 840px;
+    background-image: url(./imges/image\ 4.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.section-1__container{
+    width: 82vw;
+}
+.section-1__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+.section-1__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 45vw;
+}
+.section-1__item{
+    margin-left: 10px;
+    text-align: center;
+    }
+.section-1__link{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section-1__logo-text{
+    font-size: 9.6px;
+    font-family:'Exo 2';
+}
+.section-1__card-image{
+    z-index: 2;
+    position: relative;
+}
+.section-1__card-img-wrapper{
+    position: relative;
+}
+.section-1__card-img-wrapper::after{
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 35px;
+    height: 43px;
+    transform: skewX(-25deg);
+    background-color: #2A58ED;
+}
+.section-1__img-wrapper_1::after{
+    left: -7px;
+}
