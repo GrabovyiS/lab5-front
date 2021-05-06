@@ -888,3 +888,6 @@
   }
 }
 /* done */
+.section-3__card-img-container{
+  min-width: 115px;
+}
